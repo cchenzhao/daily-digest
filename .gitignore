@@ -1,0 +1,7 @@
+.env
+config.json
+state/*.json
+state/*.html
+state/last-successful-send-date
+__pycache__/
+.DS_Store

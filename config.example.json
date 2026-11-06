@@ -1,0 +1,6 @@
+{
+  "timezone": "America/Los_Angeles",
+  "lookahead_days": 7,
+  "canvas_base_url": "https://canvas.example.edu",
+  "recipient": "me"
+}
