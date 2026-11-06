@@ -1,6 +1,6 @@
-# Class Prep Email Digest
+# Daily Digest
 
-One daily email that tells a student what matters next. It reads their active Canvas courses, relevant upcoming calendar commitments, and a few high-signal inbox actions, then sends a concise, phone-friendly class-prep digest.
+One daily email that tells a student what matters next. It reads their active Canvas courses, relevant upcoming calendar commitments, and a few high-signal inbox actions, then sends a concise, phone-friendly Daily Digest.
 
 The purpose is to replace repetitive checking across Canvas, Calendar, and Gmail with one reliable morning view: what is due, what changed, and what needs preparation. It is deliberately email-only—no Drive sync, dashboard, course picker, or content-download pipeline.
 
@@ -19,7 +19,7 @@ It never modifies Canvas or Google Calendar, downloads course content, creates D
 ## What each person authorizes
 
 1. **Canvas API token** — read active courses, assignments, and modules.
-2. **Google Calendar read access** — include commitments that affect class preparation.
+2. **Google Calendar read access** — include upcoming commitments that affect the day.
 3. **Gmail send access** — send the digest back to the user's authenticated email address.
 4. **Time and timezone** — the only user preference.
 
@@ -88,7 +88,7 @@ On success, the command reports a course count and creates `state/current.json`.
 
 ### 4. Run and schedule with your preferred agent
 
-Then tell Codex or Claude Code: “Read `AGENTS.md` and `AUTOMATION_PROMPT.md`, then run my daily class prep digest.” Connect Gmail and Google Calendar when prompted.
+Then tell Codex or Claude Code: “Read `AGENTS.md` and `AUTOMATION_PROMPT.md`, then run my Daily Digest.” Connect Gmail and Google Calendar when prompted.
 
 To schedule it, use the agent host's built-in recurring-task feature at the chosen time, rather than a machine-specific cron job. The workflow protects against duplicate daily emails in `state/last-successful-send-date`.
 

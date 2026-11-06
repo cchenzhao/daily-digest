@@ -24,7 +24,7 @@ from zoneinfo import ZoneInfo
 HERE = pathlib.Path(__file__).resolve().parent
 DEFAULT_CONFIG = HERE / "config.json"
 DEFAULT_STATE = HERE / "state"
-USER_AGENT = "class-prep-email-digest/1.0"
+USER_AGENT = "daily-digest/1.0"
 
 
 def strip_html(value: str | None) -> str:

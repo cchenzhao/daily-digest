@@ -1,10 +1,10 @@
 # First-run onboarding
 
-Use this flow when a person says they want to set up Class Prep Email Digest. Ask one question or request one connection at a time; do not show a long form.
+Use this flow when a person says they want to set up Daily Digest. Ask one question or request one connection at a time; do not show a long form.
 
 ## 1. Explain the scope
 
-Say: “I’ll send one daily class-prep email using your active Canvas courses and your upcoming calendar. I will not download course files, change Canvas, or modify your calendar.”
+Say: “I’ll send one Daily Digest using your active Canvas courses, upcoming calendar, and high-signal inbox actions. I will not download course files, change Canvas, or modify your calendar.”
 
 ## 2. Connect Google services
 

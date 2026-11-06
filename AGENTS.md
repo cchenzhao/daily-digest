@@ -1,6 +1,6 @@
-# Class Prep Email Digest
+# Daily Digest
 
-This is a portable, email-only academic digest. It does not upload files to Drive or require a dashboard.
+This is a portable, email-only daily digest. It does not upload files to Drive or require a dashboard.
 
 ## Safety rules
 

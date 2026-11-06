@@ -1,4 +1,4 @@
-# Daily Class Prep Digest
+# Daily Digest
 
 Run this once daily at the user's selected local time.
 
@@ -6,7 +6,7 @@ Run this once daily at the user's selected local time.
 2. Compare `state/current.json` with `state/previous.json`; identify only new or materially changed assignments, due dates, submission states, and modules.
 3. Read the next seven days from the authenticated user's Google Calendar. Include course meetings and other commitments only when they affect preparation time.
 4. Read recent Gmail only for high-signal, time-sensitive academic or meeting actions. Omit newsletters, promotions, receipts, and bulk mail.
-5. Send one compact, mobile-friendly HTML email to the authenticated user. Use the subject `📚 Class Prep — <Day, Mon D>`.
+5. Send one compact, mobile-friendly HTML email to the authenticated user. Use the subject `🗓️ Daily Digest — <Day, Mon D>`.
 
 The email should contain:
 
